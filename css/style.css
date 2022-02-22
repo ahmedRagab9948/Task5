@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Tajawal", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+nav .nav_item1{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+nav .nav_item1 i{
+    color: #6e0aef;
+    padding-left: 0.75rem;
+}
+nav .bars-menu {
+    display: none;
+  }
+nav .nav_item1 h4{
+    font-family: "Lalezar", cursive;
+}
+nav .nav_items{
+    display: flex;
+    list-style: none;
+}
+nav .nav_items li{
+    padding: 0 1rem;
+}
+nav .nav_items li a{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 1.4rem;
+}
+nav .nav_items li a:hover{
+    color: #6e0aef;
+}
+/* hero_section */
+.hero{
+    background-color: #f8f7fc;
+}
+.hero_section{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero_section .contant{
+    display: flex;
+    flex-direction: column;
+}
+.hero_section .contant h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero_section .contant h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.hero_section .contant p{
+    color: rgb(29, 29, 29);
+  font-size: 1.4rem;
+}
+.hero_section .contant p span{
+    color: #6e0aef;
+}
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    outline: none;
+    background-color: #6e0aef;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.75rem 1.5rem;
+}
+.btn:hover{
+    background-color: #832ff1;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* feature section */
+.feature{
+    background-color: #f8f7fc;
+    padding: 2rem 0;
+}
+.feature .feature_section{
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.feature .feature_section h4{
+    color: #6e0aef;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+.feature .feature_section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.feature .feature_section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 17rem;
+    margin: 1rem;
+    align-items: center;
+    background-color: #ffffff;
+}
+.feature .feature_section .qualities .quality:hover{
+    border: 2px solid #6e0aef;
+}
+.feature .feature_section .qualities .quality i{
+    color: #6e0aef;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.feature .feature_section .qualities .quality h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.feature .feature_section .qualities .quality p{
+    color: #4e547e;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* newest phones */
+.newest_phones{
+    padding-top: 5rem;
+}
+.newest_phones .phones_section{
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    margin: 0 auto;
+}
+.newest_phones .phones_section h4{
+    font-size: 1.6rem;
+    color: #6e0aef;
+    margin-bottom: 2rem;
+}
+.newest_phones .phones_section .phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+.newest_phones .phones_section .phones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newest_phones .phones_section .phones .phone img{
+    margin-bottom: 1rem;
+}
+.newest_phones .phones_section .phones .phone img:hover {
+    transform: scale(1.1,1.1);
+}
+.newest_phones .phones_section .phones .phone h3{
+    font-size: 1.6rem;
+}
+.newest_phones .phones_section .btn{
+    align-self: center;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+.footer{
+    background-color: #f8f7fc;
+  height: 15vh;
+  margin-top: 5rem;
+  padding: 2rem 0;
+}
+.footer .footer_section{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem
+}
+.footer .footer_section p{
+    font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.footer_section .social {
+    margin-bottom: 1rem;
+  }
+  .footer_section .social i {
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
+  }
+  
+  .footer_section .social i:hover {
+    color: #6e0aef;
+    cursor: pointer;
+  }
+/* Responsive Design */
+@media (max-width: 1300px) {
+    * {
+      font-size: 85%;
+    }
+  }
+  
+  @media (max-width: 1175px) {
+    * {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    * {
+      text-align: center;
+    }
+    .hero_image img {
+      display: none;
+    }
+    .hero_section {
+      align-items: center;
+      padding: 2rem 0rem;
+      width: 50%;
+    }
+    .hero .btn {
+      align-self: center;
+    }
+    .hero .content {
+      margin-top: 2rem;
+    }
+    .feature_section .qualities {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    section.feature .feature_section {
+      align-items: center;
+    }
+    .phones_section h4 {
+      align-self: center;
+    }
+  }
+  
+  @media (max-width: 660px) {
+    .hero_section .content h1 {
+      font-size: 2rem;
+    }
+    .phones_section {
+      align-items: center;
+    }
+    .newest_phones .phones_section .phones{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 504px) {
+    .newest_phones .phones_section .phones {
+      grid-template-columns: 1fr;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      width: 100%;
+    }
+    nav .bars-menu {
+      display: block;
+      font-size: 3rem;
+    }
+    nav .nav_items {
+      position: absolute;
+      left: 0;
+      top: 10vh;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #7d22f3;
+      padding: 2rem 0;
+    }
+    nav .nav_items .nav_item {
+      margin: 1rem 0;
+    }
+    nav .nav_items .nav_item a {
+      color: white;
+    }
+    nav .nav_items.active {
+      display: flex;
+    }
+  }
